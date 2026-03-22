@@ -1,7 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import { Activity, Heart, ShieldCheck, FileText, Download, User, Info, Flame, Dumbbell } from "lucide-react"; 
-import Charts from "./charts";
+import { Activity, Heart, ShieldCheck, FileText, Download, User, Flame, Dumbbell } from "lucide-react";
 import generatePDF from "./report-pdf";
 
 const API_URL = "https://capstone-backend-1egj.onrender.com/analyze";
