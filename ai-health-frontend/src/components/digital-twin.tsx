@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import Charts from "./charts";
 import generatePDF from "./report-pdf";
-
+import { Activity, Heart, ShieldCheck, FileText, Download, User, Flame, Dumbbell } from "lucide-react";
 const API_URL = "https://capstone-backend-1egj.onrender.com/analyze";
 
 export default function DigitalTwin() {
